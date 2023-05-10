@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container1">  
+    <div class="spinner-box">
+<div class="circle-border">
+  <div class="circle-core">
+  </div>
+</div>  
+</div>
+ <div class="spinner-box1">
+  <div class="circle-border1">
+    <div class="circle-core1">
+    </div>
+  </div>  
+  </div>
+  
+  <div class="spinner-box2">
+    <div class="circle-border2">
+      <div class="circle-core2">
+      </div>
+    </div>  
+    </div>
+<img class="img" src="logo-1 1.png" alt="" >
+     <h1 class="text">Подождите <br> Ваш запрос обрабатывается</h1>
+        <div class="loader" style="left: 137px; top: 83px;">
+          <span class="loader__element"></span>
+          <span class="loader__element"></span>
+          <span class="loader__element"></span>
+          <span class="loader__element"></span>
+        </div>
+      <div>  <a href="https://www.google.com/intl/uk/gmail/about/" target = '_blank' class="top" style = 'left: -50px;'>ИНФОРМАЦИОННЫЕ ДОСЬЕ</a></div>
+      <div>  <a href="https://www.google.com/intl/uk/gmail/about/" target = '_blank' class="right">АРХИВЫ</a></div>
+      <div>  <a href="https://www.google.com/intl/uk/gmail/about/" target = '_blank' class="bottom">МЕТАПОИСК</a></div>
+      <div>  <a href="https://www.google.com/intl/uk/gmail/about/" target = '_blank' class="left" style="left: -180px">МОНИТОРИНГ<br> СМИ</a>  </div>
+      <div id="countdown"> 
+        <span id = "hour"></span>
+        <p>:</p>
+        <span id="minute"></span>
+        <p>:</p>
+        <span id="second"></span>
+        <p>:</p>
+        <span id="millisecond"></span>
+      </div>
+      <button id="btn" onclick="pause()" style="margin-top: 10px;">Отменить</button>
+    </div>
+    <script src="test.js"></script>
+  </body>
+</html>
+     
